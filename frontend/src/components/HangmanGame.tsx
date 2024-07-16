@@ -208,7 +208,7 @@ function HangmanGame() {
           </Card>
         </Col>
       </Row>
-      <Row justify="center" style={{ marginTop: "30px" }}>
+      {/* <Row justify="center" style={{ marginTop: "30px" }}>
         <Col>
           <a href="https://github.com/Biku213/Hangman-Game" target="_blank" rel="noopener noreferrer">
             <Button type="link" icon={<GithubOutlined />} style={{ color: "#fff", fontSize: "18px" }}>
@@ -216,7 +216,7 @@ function HangmanGame() {
             </Button>
           </a>
         </Col>
-      </Row>
+      </Row> */}
       <Modal
         title="Congratulations!"
         visible={showCelebration}

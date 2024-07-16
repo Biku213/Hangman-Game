@@ -1,0 +1,10 @@
+[package]
+name = 'hangman'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+game_address='0xb611addd177ad6191bd7de5a5bb1f15893dfbff8782e6a1f05a6bca5297984e7'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+

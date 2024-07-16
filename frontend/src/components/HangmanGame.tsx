@@ -210,7 +210,7 @@ function HangmanGame() {
       </Row>
       <Row justify="center" style={{ marginTop: "30px" }}>
         <Col>
-          <a href="https://github.com/yourusername/hangman-game" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Biku213/Hangman-Game" target="_blank" rel="noopener noreferrer">
             <Button type="link" icon={<GithubOutlined />} style={{ color: "#fff", fontSize: "18px" }}>
               View on GitHub
             </Button>

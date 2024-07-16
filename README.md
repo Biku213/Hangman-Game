@@ -53,12 +53,6 @@ The primary purpose of this project is to demonstrate the integration of blockch
 
 ## Getting Started
 
-1. Clone the repository
-2. Install dependencies: `npm install` or `yarn install`
-3. Configure the Aptos network settings in `utils/aptos.ts`
-4. Start the development server: `npm start` or `yarn start`
-5. Connect your Aptos-compatible wallet i.e Petra to play the game
-
 ## Smart Contract Deployment
 
 1. Install the Aptos CLI following the [official documentation](https://aptos.dev/cli-tools/aptos-cli-tool/install-aptos-cli).
@@ -80,23 +74,15 @@ The primary purpose of this project is to demonstrate the integration of blockch
 
 ### Frontend Setup
 
-1. Clone the repository and install dependencies:
-   ```
+1. Clone the repository: 
+  ```
    git clone <repository-url>
    cd <repository-name>
-   npm install
    ```
-2. Create a `.env` file in the project root:
-   ```
-   REACT_APP_MODULE_ADDRESS=<your-account-address>
-   ```
-3. Set up your Aptos wallet (Petra) and connect to the Testnet.
-4. Run the application:
-   ```
-   npm run start
-   ```
-
-Your dApp is now connected to your deployed smart contract on the Aptos testnet.
+2. Install dependencies: `npm install` or `yarn install`
+3. Configure the Aptos network settings in `utils/aptos.ts`
+4. Start the development server: `npm run start` or `yarn start`
+5. Connect your Aptos-compatible wallet i.e Petra to play the game
 
 
 

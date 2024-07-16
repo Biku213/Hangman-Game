@@ -61,6 +61,7 @@ The primary purpose of this project is to demonstrate the integration of blockch
    aptos init
    ```
    Choose `testnet` when prompted.
+
 3. Compile the Move module:
    ```
    aptos move compile
@@ -70,7 +71,6 @@ The primary purpose of this project is to demonstrate the integration of blockch
    aptos move publish
    ```
    Confirm the transaction when prompted.
-5. Note the account address output during initialization. You'll use this as your `REACT_APP_MODULE_ADDRESS` and `my_addr`.
 
 ### Frontend Setup
 
